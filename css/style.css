@@ -1,0 +1,153 @@
+/*header*/
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 119px;
+}
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.header-wraper {
+	position: fixed;
+	top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 20;
+}
+
+.image {
+	width: 100%
+
+}
+.text-image {
+	position: absolute;
+	top: 105px;
+	left: 700px;
+	color: #fff;
+}
+.image-wraper {
+	position: relative;
+}
+/*section#1*/
+.section1 {
+	margin-top: 96px;
+}
+.container {
+	width: 1332px;
+	margin: 0 auto;
+}
+.block-1 {
+	display: inline-block;
+	width: 636px;
+	margin-right: 50px;
+}
+.block-2 {
+	display: inline-block;
+	width: 636px;
+}
+.read {
+	color: #FF7A00;
+}
+.read::after {
+	content: 
+	width: 47px;
+	height: 4px;
+    background-color: #FF7A00;
+	display: inline-block;
+	margin-left: 20px;
+}
+.load {
+	width: 190px;
+	height: 70px;
+	background-color: #FF7A00;
+	margin: 0 auto;
+	margin-top: 66px;
+	color: #fff;
+	padding: 23px 48px;
+	font-size: 16px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/*footer*/
+.block1-footer {
+	display: inline-block;
+	margin-right: 198px;
+	vertical-align: top;
+}
+.block2-footer {
+	display: inline-block;
+	margin-right: 280px
+	vertical-align: top;
+}
+.block3-footer {
+	display: inline-block;
+	margin-right: 217px;
+	vertical-align: top;
+}
+.block4-footer {
+	display: inline-block;
+	vertical-align: top;
+}
+.copyright {
+	text-align: center;
+}
+
+
+/*center example*/
+.box-wraper {
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+	position: relative;
+
+	transition-property: all;
+	transition-duration: 0,5s;
+	transition-timing-function: linear;
+	transition-delay: 3s;
+}
+.center-box {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 50%;
+	left: 50;
+	transform: translate(-50%,-50%) rotate(45deg);
+	transition-property: all;
+	transition-duration: 0,5s;
+	transition-timing-function: linear;
+	transition-delay: 3s;
+}
+.box-wraper:hover {
+	background-color: green;
+}
+.center-box:hover {
+	background-color: black;
+	width: 250px;
+}
+
+/*animation example*/
+.image-chat {
+	height: 100px;
+	animation: chatanimation 5s infinite;
+	position: absolute;
+}
+.animation-box {
+	position: relative;
+}
+
+
+@keyframes chatanimation {
+	0% {left:0px;}
+	25% {left:200px;}
+	50% {left:400px;}
+	75% {left:600px;}
+	100% {left:800px;}
+}
